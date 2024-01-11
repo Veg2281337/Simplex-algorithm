@@ -1,0 +1,3 @@
+C:/Users/romanov.da/Desktop/Папка Вадима/Simplex-algorithm/cmake-build-release/CMakeFiles/Simplex_algorithm.dir
+C:/Users/romanov.da/Desktop/Папка Вадима/Simplex-algorithm/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/romanov.da/Desktop/Папка Вадима/Simplex-algorithm/cmake-build-release/CMakeFiles/rebuild_cache.dir

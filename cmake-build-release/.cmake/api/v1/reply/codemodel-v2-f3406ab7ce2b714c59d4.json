@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Simplex_algorithm",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Simplex_algorithm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simplex_algorithm-Release-e1c29785aa96237f22c0.json",
+					"name" : "Simplex_algorithm",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm/cmake-build-release",
+		"source" : "C:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
