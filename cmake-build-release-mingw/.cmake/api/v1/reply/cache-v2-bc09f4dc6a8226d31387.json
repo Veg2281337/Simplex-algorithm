@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm/cmake-build-release"
+			"value" : "c:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm/cmake-build-release/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm"
+			"value" : "C:/Users/romanov.da/Desktop/Simplex-algorithm"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm/cmake-build-release"
+			"value" : "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw"
 		},
 		{
 			"name" : "Simplex_algorithm_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm"
+			"value" : "C:/Users/romanov.da/Desktop/Simplex-algorithm"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

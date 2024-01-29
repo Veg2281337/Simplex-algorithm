@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/3.27.8/CompilerIdC/a.exe
+        C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/3.27.8/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/3.27.8/CompilerIdCXX/a.exe
+        C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/3.27.8/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-sknh85"
-      binary: "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-sknh85"
+      source: "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-9n18v4"
+      binary: "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-9n18v4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,10 +71,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-sknh85'
+        Change Dir: 'C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-9n18v4'
         
-        Run Build Command(s): "C:/Users/romanov.da/Desktop/Папка Вадима/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_9d86c
-        [1/2] C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj -c "C:/Users/romanov.da/Desktop/╧ряър ┬рфшьр/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Users/romanov.da/Desktop/Папка Вадима/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_fb44f
+        [1/2] C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj -c "C:/Users/romanov.da/Desktop/╧ряър ┬рфшьр/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -82,8 +82,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9d86c.dir/'
-         C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9d86c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccjbsCDe.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_fb44f.dir/'
+         C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fb44f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccQnSGYe.s
         GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -101,13 +101,13 @@ events:
          C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9d86c.dir/'
-         as -v -o CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccjbsCDe.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_fb44f.dir/'
+         as -v -o CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccQnSGYe.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.'
-        [2/2] cmd.exe /C "cd . && C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj -o cmTC_9d86c.exe -Wl,--out-implib,libcmTC_9d86c.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.'
+        [2/2] cmd.exe /C "cd . && C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj -o cmTC_fb44f.exe -Wl,--out-implib,libcmTC_fb44f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░\\ ╨Т╨░╨┤╨╕╨╝╨░/CLion\\ 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -118,9 +118,9 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d86c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9d86c.'
-         C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_9d86c.exe C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9d86c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d86c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9d86c.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fb44f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_fb44f.'
+         C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_fb44f.exe C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_fb44f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fb44f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_fb44f.'
         
       exitCode: 0
   -
@@ -154,10 +154,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-sknh85']
+        ignore line: [Change Dir: 'C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-9n18v4']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Users/romanov.da/Desktop/Папка Вадима/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_9d86c]
-        ignore line: [[1/2] C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj -c "C:/Users/romanov.da/Desktop/╧ряър ┬рфшьр/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Users/romanov.da/Desktop/Папка Вадима/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_fb44f]
+        ignore line: [[1/2] C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj -c "C:/Users/romanov.da/Desktop/╧ряър ┬рфшьр/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -165,8 +165,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9d86c.dir/']
-        ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9d86c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccjbsCDe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_fb44f.dir/']
+        ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fb44f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccQnSGYe.s]
         ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -184,8 +184,8 @@ events:
         ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9d86c.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccjbsCDe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_fb44f.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccQnSGYe.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/]
@@ -195,8 +195,8 @@ events:
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj -o cmTC_9d86c.exe -Wl --out-implib libcmTC_9d86c.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj -o cmTC_fb44f.exe -Wl --out-implib libcmTC_fb44f.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░\\ ╨Т╨░╨┤╨╕╨╝╨░/CLion\\ 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -213,9 +213,9 @@ events:
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d86c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9d86c.']
-        ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_9d86c.exe C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_9d86c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9d86c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d86c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9d86c.']
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fb44f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_fb44f.']
+        ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_fb44f.exe C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_fb44f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_fb44f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fb44f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_fb44f.']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -233,8 +233,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y643cf"
-      binary: "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y643cf"
+      source: "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-9m1yj0"
+      binary: "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-9m1yj0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -243,10 +243,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y643cf'
+        Change Dir: 'C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-9m1yj0'
         
-        Run Build Command(s): "C:/Users/romanov.da/Desktop/Папка Вадима/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f83b7
-        [1/2] C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/romanov.da/Desktop/╧ряър ┬рфшьр/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Users/romanov.da/Desktop/Папка Вадима/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_95195
+        [1/2] C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/romanov.da/Desktop/╧ряър ┬рфшьр/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE
         Target: x86_64-w64-mingw32
@@ -254,8 +254,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_f83b7.dir/'
-         C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f83b7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccTQOzje.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_95195.dir/'
+         C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_95195.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccN7XbMj.s
         GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -279,13 +279,13 @@ events:
          C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: e75de627edc3c57e31324b930b15b056
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_f83b7.dir/'
-         as -v -o CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccTQOzje.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_95195.dir/'
+         as -v -o CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccN7XbMj.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] cmd.exe /C "cd . && C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f83b7.exe -Wl,--out-implib,libcmTC_f83b7.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] cmd.exe /C "cd . && C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_95195.exe -Wl,--out-implib,libcmTC_95195.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE
         COLLECT_LTO_WRAPPER=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░\\ ╨Т╨░╨┤╨╕╨╝╨░/CLion\\ 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -296,9 +296,9 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f83b7.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f83b7.'
-         C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_f83b7.exe C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_f83b7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f83b7.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f83b7.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95195.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_95195.'
+         C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_95195.exe C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_95195.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95195.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_95195.'
         
       exitCode: 0
   -
@@ -338,10 +338,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-y643cf']
+        ignore line: [Change Dir: 'C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/CMakeScratch/TryCompile-9m1yj0']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Users/romanov.da/Desktop/Папка Вадима/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f83b7]
-        ignore line: [[1/2] C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/romanov.da/Desktop/╧ряър ┬рфшьр/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Users/romanov.da/Desktop/Папка Вадима/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_95195]
+        ignore line: [[1/2] C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Users/romanov.da/Desktop/╧ряър ┬рфшьр/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -349,8 +349,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_f83b7.dir/']
-        ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f83b7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccTQOzje.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_95195.dir/']
+        ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_95195.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccN7XbMj.s]
         ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -374,8 +374,8 @@ events:
         ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_f83b7.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccTQOzje.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_95195.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\romanov.da\\AppData\\Local\\Temp\\ccN7XbMj.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/]
@@ -385,8 +385,8 @@ events:
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f83b7.exe -Wl --out-implib libcmTC_f83b7.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_95195.exe -Wl --out-implib libcmTC_95195.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\romanov.da\\Desktop\\BD42~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░\\ ╨Т╨░╨┤╨╕╨╝╨░/CLion\\ 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -403,9 +403,9 @@ events:
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f83b7.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f83b7.']
-        ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_f83b7.exe C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_f83b7.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_f83b7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f83b7.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f83b7.']
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95195.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_95195.']
+        ignore line: [ C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_95195.exe C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_95195.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_95195.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/romanov.da/Desktop/╨Я╨░╨┐╨║╨░ ╨Т╨░╨┤╨╕╨╝╨░/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95195.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_95195.']
         ignore line: []
         ignore line: []
         implicit libs: []

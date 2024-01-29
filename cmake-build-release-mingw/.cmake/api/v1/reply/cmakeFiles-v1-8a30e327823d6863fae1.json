@@ -16,7 +16,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-release/CMakeFiles/3.27.8/CMakeSystem.cmake"
+			"path" : "cmake-build-release-mingw/CMakeFiles/3.27.8/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -275,7 +275,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-release/CMakeFiles/3.27.8/CMakeCCompiler.cmake"
+			"path" : "cmake-build-release-mingw/CMakeFiles/3.27.8/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -519,7 +519,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-release/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
+			"path" : "cmake-build-release-mingw/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -593,7 +593,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-release/CMakeFiles/3.27.8/CMakeRCCompiler.cmake"
+			"path" : "cmake-build-release-mingw/CMakeFiles/3.27.8/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -672,7 +672,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-release/CMakeFiles/3.27.8/CMakeCCompiler.cmake"
+			"path" : "cmake-build-release-mingw/CMakeFiles/3.27.8/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -771,7 +771,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-release/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
+			"path" : "cmake-build-release-mingw/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -782,8 +782,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm/cmake-build-release",
-		"source" : "C:/Users/romanov.da/Desktop/\u041f\u0430\u043f\u043a\u0430 \u0412\u0430\u0434\u0438\u043c\u0430/Simplex-algorithm"
+		"build" : "C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw",
+		"source" : "C:/Users/romanov.da/Desktop/Simplex-algorithm"
 	},
 	"version" : 
 	{

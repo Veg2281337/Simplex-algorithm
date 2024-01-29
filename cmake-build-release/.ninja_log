@@ -1,13 +1,4 @@
 # ninja log v5
-1	3341	7266857683121375	CMakeFiles/Simplex_algorithm.dir/main.cpp.obj	3417b0efeba81790
-3344	3608	7266857685721203	Simplex_algorithm.exe	17d79775b9181b04
-1	820	7269658066818417	CMakeFiles/Simplex_algorithm.dir/main.cpp.obj	3417b0efeba81790
-820	1250	7269658071086036	Simplex_algorithm.exe	17d79775b9181b04
-2	836	7269661914892059	CMakeFiles/Simplex_algorithm.dir/main.cpp.obj	3417b0efeba81790
-837	979	7269661916271228	Simplex_algorithm.exe	17d79775b9181b04
-1	554	7269662091667929	CMakeFiles/Simplex_algorithm.dir/main.cpp.obj	3417b0efeba81790
-555	670	7269662092787391	Simplex_algorithm.exe	17d79775b9181b04
-2	554	7269662579344051	CMakeFiles/Simplex_algorithm.dir/main.cpp.obj	3417b0efeba81790
-554	666	7269662580423435	Simplex_algorithm.exe	17d79775b9181b04
-1	621	7269664653672949	CMakeFiles/Simplex_algorithm.dir/main.cpp.obj	3417b0efeba81790
-622	731	7269664654732368	Simplex_algorithm.exe	17d79775b9181b04
+1359	1680	7282499834258240	Simplex_algorithm.exe	528e789307a51e6e
+1	539	7282500187851848	build.ninja	4ce9041f0896e1b3
+0	1357	7282499831233225	CMakeFiles/Simplex_algorithm.dir/application/main.cpp.obj	eb2adb9620150bee

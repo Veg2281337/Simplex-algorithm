@@ -1,0 +1,3 @@
+C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/Simplex_algorithm.dir
+C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+C:/Users/romanov.da/Desktop/Simplex-algorithm/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir
