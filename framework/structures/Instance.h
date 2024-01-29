@@ -12,6 +12,8 @@
 struct Instance
 {
     std::vector<std::vector<double>> a;
+    std::vector<double> b;
+    std::vector<double> c;
 };
 
 
