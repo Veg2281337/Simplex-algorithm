@@ -8,11 +8,11 @@
 #include <random>
 
 class InstanceGen {
-    void generate(n: int, m: int)
+    void generate(int n, int m)
     {
 
-        return
+        return;
     };
-}
+};
 
 #endif //SIMPLEX_ALGORITHM_INSTANCEGENERATOR_H
