@@ -19,7 +19,7 @@ struct Instance
     std::vector<double> b;
     std::vector<double> c;
     double c0;
-    Instance(std::vector<std::vector<double>> a, std::vector<double> bb, std::vector<double> c, double c0, Sign sign)
+    Instance(std::vector<std::vector<double>> a, std::vector<double> b, std::vector<double> c, double c0, Sign sign)
     {
 
     };
@@ -29,11 +29,11 @@ struct Instance
     };
     size_t col()
     {
-        return a.size();
+        return a[0].size();
     };
-    void shape()
+    std::tuple<size_t, size_t> shape()
     {
-        std::tuple();
+        return std::tuple<size_t, size_t>{row(), col()};
     };
 };
 

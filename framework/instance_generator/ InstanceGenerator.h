@@ -5,13 +5,15 @@
 #ifndef SIMPLEX_ALGORITHM_INSTANCEGENERATOR_H
 #define SIMPLEX_ALGORITHM_INSTANCEGENERATOR_H
 
+#include "..\framework\structures\Instance.h"
+
 #include <random>
 
 class InstanceGen {
     void generate(int n, int m)
     {
 
-        return;
+        return Instance;
     };
 };
 
