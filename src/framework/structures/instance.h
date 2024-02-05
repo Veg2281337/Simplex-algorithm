@@ -19,14 +19,20 @@ using LPFloat = double;
 using Vector = std::vector<LPFloat>;
 using Matrix = std::vector<Vector>;
 
-struct Instance
+template<
+    Sign sign = Sign::LESS_EQUAL,
+	bool simplexTableQ = false>
+struct Instance {};
+
+
+template<Sign sign>
+struct Instance<sign, false>
 {
 private:
     Matrix a_;
     Vector b_;
     Vector c_;
     LPFloat c0_;
-    Sign sign_;
 
 public:
     [[nodiscard]] Matrix const& getA() const
@@ -49,17 +55,16 @@ public:
         return c0_;
     }
 
-    [[nodiscard]] Sign const& getSign() const
+    [[nodiscard]] Sign getSign() const
     {
-        return sign_;
+        return sign;
     }
 
-    Instance(Matrix a, Vector b, Vector c, LPFloat c0, Sign sign)
+    Instance(Matrix a, Vector b, Vector c, LPFloat c0)
 	: a_(std::move(a))
 	, b_(std::move(b))
 	, c_(std::move(c)),
-	c0_(c0),
-	sign_(sign) {}
+	c0_(c0) {}
 
     [[nodiscard]] size_t row() const
     {
@@ -77,5 +82,12 @@ public:
     }
 };
 
+
+// TODO
+template<Sign sign>
+struct Instance<sign, true>
+{
+
+};
 
 #endif //SIMPLEX_ALGORITHM_INSTANCE_H

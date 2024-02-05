@@ -6,12 +6,11 @@
 
 void test_1()
 {
-	Instance inst = Instance(
+	Instance inst = Instance<Sign::EQUAL>(
 		{{1, 2}, {3, 4}, {5, 6}},
 		{1, -2, 3},
 		{-6, -7},
-		-10.0,
-		Sign::EQUAL
+		-10.0
 	);
 
 	std::cout << inst;
@@ -19,7 +18,7 @@ void test_1()
 
 void test_2()
 {
-	auto inst = InstanceGen::generate(5, 5);
+	auto inst = InstanceGen::generate<Sign::LESS_EQUAL>(5, 5);
 	std::cout << inst;
 }
 

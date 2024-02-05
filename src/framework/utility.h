@@ -6,7 +6,9 @@
 #include <iostream>
 #include <cmath>
 
-std::ostream& operator << (std::ostream &os, Instance const& inst)
+
+template<Sign sign, bool simplexTableQ>
+std::ostream& operator << (std::ostream &os, Instance<sign, simplexTableQ> const& inst)
 {
 	auto [n, m] = inst.shape();
 	auto c = inst.getC();
