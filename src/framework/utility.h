@@ -21,13 +21,13 @@ std::ostream& operator << (std::ostream &os, Instance const& inst)
 	{
 		os << (i > 0 ? std::abs(c[i]) : c[i]) << " * x" << i + 1 << (i < m - 1 ? (c[i + 1] < 0 ? " - " : " + ") : "");
 	}
-	os << (c0 < 0 ? " - " : " + ") << std::abs(c0) << " -> max\n";
+	os << (c0 < 0 ? " - " : " + ") << std::abs(c0) << " -> max\nSubject to:\n";
 
 	for (size_t i = 0; i < n; ++i)
 	{
 		for (size_t j = 0; j < m; ++j)
 		{
-			os << (i > 0 ? std::abs(a[i][j]) : a[i][j]) << " * x" << i + 1 << (j < m - 1 ? (a[i][j + 1] < 0 ? " - " : " + ") : "");
+			os << (i > 0 ? std::abs(a[i][j]) : a[i][j]) << " * x" << j + 1 << (j < m - 1 ? (a[i][j + 1] < 0 ? " - " : " + ") : "");
 		}
 		switch (inst.getSign())
 		{
@@ -37,7 +37,7 @@ std::ostream& operator << (std::ostream &os, Instance const& inst)
 		}
 		os << b[i] << "\n";
 	}
-	os << "x >= 0";
+	os << "x >= 0\n\n";
 
 	return os;
 }

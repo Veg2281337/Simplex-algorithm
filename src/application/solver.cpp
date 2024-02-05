@@ -4,8 +4,7 @@
 
 #include <iostream>
 
-
-int main()
+void test_1()
 {
 	Instance inst = Instance(
 		{{1, 2}, {3, 4}, {5, 6}},
@@ -16,5 +15,17 @@ int main()
 	);
 
 	std::cout << inst;
+}
+
+void test_2()
+{
+	auto inst = InstanceGen::generate(5, 5);
+	std::cout << inst;
+}
+
+int main()
+{
+	test_1();
+	test_2();
     return 0;
 }

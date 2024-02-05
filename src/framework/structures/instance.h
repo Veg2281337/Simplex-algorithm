@@ -10,9 +10,9 @@
 
 enum class Sign
 {
-    LESS_EQUAL,
-    EQUAL,
-    MORE_EQUAL
+    LESS_EQUAL = 0,
+    EQUAL = 1,
+    MORE_EQUAL = 2
 };
 
 using LPFloat = double;
@@ -27,42 +27,54 @@ private:
     Vector c_;
     LPFloat c0_;
     Sign sign_;
+
 public:
     [[nodiscard]] Matrix const& getA() const
     {
         return a_;
     }
+
     [[nodiscard]] Vector const& getB() const
     {
         return b_;
     }
+
     [[nodiscard]] Vector const& getC() const
     {
         return c_;
     }
+
     [[nodiscard]] LPFloat const& getC0() const
     {
         return c0_;
     }
+
     [[nodiscard]] Sign const& getSign() const
     {
         return sign_;
     }
 
-    Instance(Matrix a, Vector b, Vector c, LPFloat c0, Sign sign) : a_(a), b_(b), c_(c), c0_(c0), sign_(sign) {}
-    [[nodiscard]] size_t const& row() const
+    Instance(Matrix a, Vector b, Vector c, LPFloat c0, Sign sign)
+	: a_(std::move(a))
+	, b_(std::move(b))
+	, c_(std::move(c)),
+	c0_(c0),
+	sign_(sign) {}
+
+    [[nodiscard]] size_t row() const
     {
         return a_.size();
-    };
-    [[nodiscard]] size_t const& col() const
+    }
+
+    [[nodiscard]] size_t col() const
     {
         return a_[0].size();
-    };
-    [[nodiscard]] std::tuple<size_t, size_t> const& shape() const
+    }
+
+    [[nodiscard]] std::tuple<size_t, size_t> shape() const
     {
         return std::tuple<size_t, size_t>{row(), col()};
-    };
-
+    }
 };
 
 
