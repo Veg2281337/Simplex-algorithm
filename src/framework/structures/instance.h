@@ -10,31 +10,60 @@
 
 enum class Sign
 {
-    LESS_EQUAL, EQUAL, MORE_EQUAL
+    LESS_EQUAL,
+    EQUAL,
+    MORE_EQUAL
 };
+
+using LPFloat = double;
+using Vector = std::vector<LPFloat>;
+using Matrix = std::vector<Vector>;
 
 struct Instance
 {
-    std::vector<std::vector<double>> a;
-    std::vector<double> b;
-    std::vector<double> c;
-    double c0;
-    Instance(std::vector<std::vector<double>> a, std::vector<double> b, std::vector<double> c, double c0, Sign sign)
+private:
+    Matrix a_;
+    Vector b_;
+    Vector c_;
+    LPFloat c0_;
+    Sign sign_;
+public:
+    [[nodiscard]] Matrix const& getA() const
     {
+        return a_;
+    }
+    [[nodiscard]] Vector const& getB() const
+    {
+        return b_;
+    }
+    [[nodiscard]] Vector const& getC() const
+    {
+        return c_;
+    }
+    [[nodiscard]] LPFloat const& getC0() const
+    {
+        return c0_;
+    }
+    [[nodiscard]] Sign const& getSign() const
+    {
+        return sign_;
+    }
 
-    };
-    size_t row()
+    Instance(Matrix a, Vector b, Vector c, LPFloat c0, Sign sign) : a_(a), b_(b), c_(c), c0_(c0), sign_(sign) {}
+    [[nodiscard]] size_t const& row() const
     {
-        return a.size();
+        return a_.size();
     };
-    size_t col()
+    [[nodiscard]] size_t const& col() const
     {
-        return a[0].size();
+        return a_[0].size();
     };
-    std::tuple<size_t, size_t> shape()
+    [[nodiscard]] std::tuple<size_t, size_t> const& shape() const
     {
         return std::tuple<size_t, size_t>{row(), col()};
     };
+
 };
+
 
 #endif //SIMPLEX_ALGORITHM_INSTANCE_H
