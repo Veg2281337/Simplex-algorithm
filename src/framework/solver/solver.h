@@ -1,8 +1,6 @@
 #ifndef SIMPLEX_ALGORITHM_SRC_FRAMEWORK_SOLVER_SOLVER_H
 #define SIMPLEX_ALGORITHM_SRC_FRAMEWORK_SOLVER_SOLVER_H
 
-#include <iostream>
-
 #include "src/framework/structures/instance.h"
 
 struct Solver

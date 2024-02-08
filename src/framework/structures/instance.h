@@ -2,10 +2,8 @@
 #define SIMPLEX_ALGORITHM_INSTANCE_H
 
 #include <vector>
-#include <cstdlib>
 #include <unordered_map>
 #include <unordered_set>
-#include <optional>
 #include <iostream>
 
 enum class Sign
