@@ -6,9 +6,8 @@
 #include <iostream>
 #include <cmath>
 
-
 template<Sign sign>
-std::ostream& operator << (std::ostream &os, Instance<sign> const& inst)
+std::ostream& operator<<(std::ostream& os, Instance<sign> const& inst)
 {
 	auto [n, m] = inst.shape();
 	auto c = inst.c();
@@ -29,13 +28,20 @@ std::ostream& operator << (std::ostream &os, Instance<sign> const& inst)
 	{
 		for (size_t j = 0; j < m; ++j)
 		{
-			os << (j > 0 ? std::abs(a[i][j]) : a[i][j]) << " * x" << j + 1 << (j < m - 1 ? (a[i][j + 1] < 0 ? " - " : " + ") : "");
+			os << (j > 0 ? std::abs(a[i][j]) : a[i][j]) << " * x" << j + 1
+			   << (j < m - 1 ? (a[i][j + 1] < 0 ? " - " : " + ") : "");
 		}
 		switch (inst.sign())
 		{
-			case Sign::LESS_EQUAL: os << " <= "; break;
-			case Sign::EQUAL: os << " == "; break;
-			case Sign::MORE_EQUAL: os << " >= "; break;
+			case Sign::LESS_EQUAL:
+				os << " <= ";
+				break;
+			case Sign::EQUAL:
+				os << " == ";
+				break;
+			case Sign::MORE_EQUAL:
+				os << " >= ";
+				break;
 		}
 		os << b[i] << "\n";
 	}
@@ -43,6 +49,5 @@ std::ostream& operator << (std::ostream &os, Instance<sign> const& inst)
 
 	return os;
 }
-
 
 #endif //SIMPLEX_ALGORITHM_SRC_FRAMEWORK_UTILITY_H
