@@ -7,14 +7,14 @@
 #include <cmath>
 
 
-template<Sign sign, bool simplexTableQ>
-std::ostream& operator << (std::ostream &os, Instance<sign, simplexTableQ> const& inst)
+template<Sign sign>
+std::ostream& operator << (std::ostream &os, Instance<sign> const& inst)
 {
 	auto [n, m] = inst.shape();
-	auto c = inst.getC();
-	auto c0 = inst.getC0();
-	auto a = inst.getA();
-	auto b = inst.getB();
+	auto c = inst.c();
+	auto c0 = inst.c0();
+	auto a = inst.a();
+	auto b = inst.b();
 
 	os << "Linear Programming Problem:\n";
 	os << m << " variables, " << n << " rows.\n";
@@ -29,9 +29,9 @@ std::ostream& operator << (std::ostream &os, Instance<sign, simplexTableQ> const
 	{
 		for (size_t j = 0; j < m; ++j)
 		{
-			os << (i > 0 ? std::abs(a[i][j]) : a[i][j]) << " * x" << j + 1 << (j < m - 1 ? (a[i][j + 1] < 0 ? " - " : " + ") : "");
+			os << (j > 0 ? std::abs(a[i][j]) : a[i][j]) << " * x" << j + 1 << (j < m - 1 ? (a[i][j + 1] < 0 ? " - " : " + ") : "");
 		}
-		switch (inst.getSign())
+		switch (inst.sign())
 		{
 			case Sign::LESS_EQUAL: os << " <= "; break;
 			case Sign::EQUAL: os << " == "; break;

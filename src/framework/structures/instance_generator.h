@@ -8,11 +8,8 @@
 
 
 struct InstanceGen {
-	template<Sign sign, bool simplexTableQ>
-	static Instance<sign, false> generate(size_t n, size_t m);
-
 	template<Sign sign>
-    static Instance<sign, false> generate(size_t n, size_t m)
+    static Instance<sign> generate(size_t n, size_t m)
     {
         std::random_device rd;
         std::mt19937 gen(rd());
@@ -42,13 +39,7 @@ struct InstanceGen {
         double c0 = dis(gen);
 		return {a, b, c, c0};
     };
-
-	// TODO
-//	template<Sign sign>
-//	static Instance<sign, true> generate(size_t n, size_t m)
-//	{
-//		return ;
-//	};
 };
+
 
 #endif //SIMPLEX_ALGORITHM_INSTANCEGENERATOR_H
