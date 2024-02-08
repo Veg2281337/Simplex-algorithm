@@ -1,7 +1,6 @@
 #ifndef SIMPLEX_ALGORITHM_INSTANCE_H
 #define SIMPLEX_ALGORITHM_INSTANCE_H
 
-
 #include <vector>
 #include <cstdlib>
 #include <unordered_map>
@@ -9,12 +8,9 @@
 #include <optional>
 #include <iostream>
 
-
 enum class Sign
 {
-    LESS_EQUAL = 0,
-    EQUAL = 1,
-    MORE_EQUAL = 2
+	LESS_EQUAL = 0, EQUAL = 1, MORE_EQUAL = 2
 };
 
 using LPFloat = double;
@@ -22,15 +18,14 @@ using Vector = std::vector<LPFloat>;
 using Matrix = std::vector<Vector>;
 using Basis = std::unordered_map<size_t, size_t>;
 
-
 template<Sign sign_>
 struct Instance
 {
 private:
-    Matrix a_;
-    Vector b_;
-    Vector c_;
-    LPFloat c0_;
+	Matrix a_;
+	Vector b_;
+	Vector c_;
+	LPFloat c0_;
 	Basis basis_;
 
 public:
@@ -42,30 +37,27 @@ public:
 
 	[[nodiscard]] LPFloat const& c0() const { return c0_; }
 
-	[[nodiscard]] Sign sign() const { return sign_;}
+	[[nodiscard]] Sign sign() const { return sign_; }
 
 	[[nodiscard]] Basis const& basis() const { return basis_; }
 
-    Instance(Matrix a, Vector b, Vector c, LPFloat c0)
-	: a_(std::move(a))
-	, b_(std::move(b))
-	, c_(std::move(c)),
-	c0_(c0) {}
+	Instance(Matrix a, Vector b, Vector c, LPFloat c0)
+			: a_(std::move(a)), b_(std::move(b)), c_(std::move(c)), c0_(c0) {}
 
-    [[nodiscard]] size_t row() const
-    {
-        return a_.size();
-    }
+	[[nodiscard]] size_t row() const
+	{
+		return a_.size();
+	}
 
-    [[nodiscard]] size_t col() const
-    {
-        return a_[0].size();
-    }
+	[[nodiscard]] size_t col() const
+	{
+		return a_[0].size();
+	}
 
-    [[nodiscard]] std::tuple<size_t, size_t> shape() const
-    {
-        return std::tuple<size_t, size_t>{row(), col()};
-    }
+	[[nodiscard]] std::tuple<size_t, size_t> shape() const
+	{
+		return std::tuple<size_t, size_t>{row(), col()};
+	}
 
 	void gaussStep(size_t row_idx, size_t col_idx)
 	{
@@ -108,6 +100,7 @@ public:
 
 	void initBasis();
 
+
 	void makeBPositive();
 
 	[[nodiscard]] Instance<Sign::EQUAL> toEqual() const
@@ -118,6 +111,7 @@ public:
 		}
 
 		Matrix a = a_;
+
 		Vector b = b_;
 		for (size_t i = 0; i < row(); ++i)
 		{
@@ -138,7 +132,7 @@ public:
 
 	void changeBasis(Basis const& basis)
 	{
-		for (auto [row_idx, col_idx] : basis)
+		for (auto [row_idx, col_idx]: basis)
 		{
 			gaussStep(row_idx, col_idx);
 		}
@@ -155,7 +149,7 @@ private:
 			b.reserve(row() - lin_dep_rows.size());
 			for (size_t i = 0; i < row(); ++i)
 			{
-				if (lin_dep_rows.find(i)==lin_dep_rows.end())
+				if (lin_dep_rows.find(i) == lin_dep_rows.end())
 				{
 					a.push_back(std::move(a_[i]));
 					b.push_back(b_[i]);
@@ -220,6 +214,5 @@ void Instance<Sign::EQUAL>::makeBPositive()
 		}
 	}
 }
-
 
 #endif //SIMPLEX_ALGORITHM_INSTANCE_H
