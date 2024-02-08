@@ -10,3 +10,4 @@ include_directories(framework)
 
 
 add_executable(simplex_algorithm application/solver.cpp)
+add_executable(test application/test.cpp)
