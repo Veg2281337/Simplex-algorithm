@@ -96,7 +96,6 @@ private:
 				std::cout << "Unbounded problem\n";
 				std::abort();
 			}
-
 			inst.gaussStep(best_from, best_to);
 		}
 	}

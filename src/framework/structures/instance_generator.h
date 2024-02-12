@@ -21,20 +21,20 @@ struct InstanceGen
 			for (size_t j = 0; j < m; ++j)
 			{
 				a[i][j] = dis(gen);
-			};
-		};
+			}
+		}
 
 		std::vector<double> b(n, 0);
 		for (size_t i = 0; i < n; ++i)
 		{
 			b[i] = dis(gen);
-		};
+		}
 
 		std::vector<double> c(m, 0);
 		for (size_t j = 0; j < m; ++j)
 		{
 			c[j] = dis(gen);
-		};
+		}
 
 		double c0 = dis(gen);
 		return {a, b, c, c0};

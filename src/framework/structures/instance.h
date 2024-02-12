@@ -57,47 +57,9 @@ public:
 		return std::tuple<size_t, size_t>{row(), col()};
 	}
 
-	void gaussStep(size_t row_idx, size_t col_idx)
-	{
-		if (a_.at(row_idx).at(col_idx) == 0)
-		{
-			std::cout << "Zero element in gaussStep\n";
-			std::abort();
-		}
-
-		LPFloat v = a_[row_idx][col_idx];
-		b_[row_idx] /= v;
-		for (size_t j = 0; j < col(); ++j)
-		{
-			a_[row_idx][j] /= v;
-		}
-
-		for (size_t i = 0; i < row(); ++i)
-		{
-			if (i == row_idx)
-			{
-				continue;
-			}
-			v = a_[i][col_idx];
-			b_[i] -= b_[row_idx] * v;
-			for (size_t j = 0; j < col(); ++j)
-			{
-				a_[i][j] -= a_[row_idx][j] * v;
-			}
-		}
-
-		v = c_[col_idx];
-		c0_ += b_[row_idx] * v;
-		for (size_t j = 0; j < col(); ++j)
-		{
-			c_[j] -= a_[row_idx][j] * v;
-		}
-
-		basis_[row_idx] = col_idx;
-	}
+	void gaussStep(size_t row_idx, size_t col_idx);
 
 	void initBasis();
-
 
 	void makeBPositive();
 
@@ -128,36 +90,89 @@ public:
 		return {a, b, c_, c0_};
 	}
 
-	void changeBasis(Basis const& basis)
+	void changeBasis(Basis const& basis);
+
+	Vector getSolution();
+
+private:
+	void deleteLinDependenceRow(std::unordered_set<size_t> const& lin_dep_rows);
+};
+
+template<>
+void Instance<Sign::EQUAL>::gaussStep(size_t row_idx, size_t col_idx)
+{
+	if (a_.at(row_idx).at(col_idx) == 0)
 	{
-		for (auto [row_idx, col_idx]: basis)
+		for (size_t i = 0; i < row(); ++i)
 		{
-			gaussStep(row_idx, col_idx);
+			if (a_[i][col_idx] != 0)
+			{
+				for (size_t j = 0; j < col(); ++j)
+				{
+					a_[row_idx][j] += a_[i][j];
+				}
+				b_[row_idx] += b_[i];
+			}
+		}
+		if (a_[row_idx][col_idx] == 0)
+		{
+			std::cout << "Zero element in gaussStep\n";
+			std::abort();
 		}
 	}
 
-private:
-	void deleteLinDependenceRow(std::unordered_set<size_t> const& lin_dep_rows)
+	LPFloat v = a_[row_idx][col_idx];
+	b_[row_idx] /= v;
+	for (size_t j = 0; j < col(); ++j)
 	{
-		if (!lin_dep_rows.empty())
+		a_[row_idx][j] /= v;
+	}
+
+	for (size_t i = 0; i < row(); ++i)
+	{
+		if (i == row_idx)
 		{
-			Matrix a;
-			Vector b;
-			a.reserve(row() - lin_dep_rows.size());
-			b.reserve(row() - lin_dep_rows.size());
-			for (size_t i = 0; i < row(); ++i)
-			{
-				if (lin_dep_rows.find(i) == lin_dep_rows.end())
-				{
-					a.push_back(std::move(a_[i]));
-					b.push_back(b_[i]);
-				}
-			}
-			a_ = a;
-			b_ = b;
+			continue;
+		}
+		v = a_[i][col_idx];
+		b_[i] -= b_[row_idx] * v;
+		for (size_t j = 0; j < col(); ++j)
+		{
+			a_[i][j] -= a_[row_idx][j] * v;
 		}
 	}
-};
+
+	v = c_[col_idx];
+	c0_ += b_[row_idx] * v;
+	for (size_t j = 0; j < col(); ++j)
+	{
+		c_[j] -= a_[row_idx][j] * v;
+	}
+
+	basis_[row_idx] = col_idx;
+}
+
+template<>
+void Instance<Sign::EQUAL>::deleteLinDependenceRow(std::unordered_set<size_t> const& lin_dep_rows)
+{
+	if (!lin_dep_rows.empty())
+	{
+		Matrix a;
+		Vector b;
+		a.reserve(row() - lin_dep_rows.size());
+		b.reserve(row() - lin_dep_rows.size());
+		for (size_t i = 0; i < row(); ++i)
+		{
+			if (lin_dep_rows.find(i) == lin_dep_rows.end())
+			{
+				a.push_back(std::move(a_[i]));
+				b.push_back(b_[i]);
+			}
+		}
+		a_ = a;
+		b_ = b;
+	}
+}
 
 template<>
 void Instance<Sign::EQUAL>::initBasis()
@@ -211,6 +226,28 @@ void Instance<Sign::EQUAL>::makeBPositive()
 			b_[i] *= -1;
 		}
 	}
+}
+
+template<>
+void Instance<Sign::EQUAL>::changeBasis(Basis const& basis)
+{
+	for (auto [row_idx, col_idx]: basis)
+	{
+		gaussStep(row_idx, col_idx);
+	}
+}
+
+
+template<>
+Vector Instance<Sign::EQUAL>::getSolution()
+{
+	Vector solution(col());
+	for (auto [i, j] : basis_)
+	{
+		solution[j] = b_[i] / a_[i][j];
+	}
+
+	return solution;
 }
 
 #endif //SIMPLEX_ALGORITHM_INSTANCE_H
